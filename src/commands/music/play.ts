@@ -12,6 +12,7 @@ export default class PlayCommand extends Command {
         {
           id: "search",
           type: "string",
+          match: "text",
         },
       ],
     });

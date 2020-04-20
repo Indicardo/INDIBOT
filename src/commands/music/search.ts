@@ -11,6 +11,7 @@ export default class SearchCommand extends Command {
         {
           id: "search",
           type: "string",
+          match: "text",
         },
       ],
     });
