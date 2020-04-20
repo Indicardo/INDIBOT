@@ -1,0 +1,8 @@
+{
+  "Uh oh! That doesn't look like a valid locale. Valid locales include:": "¡Vaya! No tengo ese lenguaje. Admito los siguientes códigos:",
+  "Done! The bot's language has changed.": "¡Hecho! Se ha cambiado el lenguaje del bot.",
+  "Done! The bot's prefix has changed to": "¡Hecho! Se ha cambiado el prefijo del bot a",
+  "Done! Shame on you,": "¡Hecho! Qué vergüenza,",
+  "Done! Welcome back,": "¡Hecho! Bienvenido de nuevo,",
+  "You can't blacklist yourself!": "¡No puedes usar el comando `blacklist` con ti mismo!"
+}

@@ -1,0 +1,18 @@
+{
+  "Well... It seems like nothing is playing": "Well... It seems like nothing is playing",
+  "Source": "Source",
+  "Adding...": "Adding...",
+  "All songs from playlist %s have been added to the queue": "All songs from playlist %s have been added to the queue",
+  "Uh oh chief! Nothing has been found. Better luck next time!": "Uh oh chief! Nothing has been found. Better luck next time!",
+  "Uh oh chief! The queue is empty.": "Uh oh chief! The queue is empty.",
+  "Current queue": "Current queue",
+  "videos": "videos",
+  "Searching...": "Searching...",
+  "...Next time do something that makes sense, aight?": "...Next time do something that makes sense, aight?",
+  "Well... It seems like you aren't connected to a voice channel. Try again": "Well... It seems like you aren't connected to a voice channel. Try again",
+  "Uh oh chief! Couldn't connect to your channel because I don't have permissions to do so.": "Uh oh chief! Couldn't connect to your channel because I don't have permissions to do so.",
+  "Well... It seems like I can't speak here! I don't have permissions to do so.": "Well... It seems like I can't speak here! I don't have permissions to do so.",
+  "Couldn't join channel": "Couldn't join channel",
+  "**{{title}}** `[{{duration}}]` has been added to the queue": "**{{title}}** `[{{duration}}]` has been added to the queue",
+  "Playing...": "Playing..."
+}

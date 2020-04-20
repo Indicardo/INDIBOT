@@ -1,0 +1,18 @@
+{
+  "Well... It seems like nothing is playing": "¡Vaya! Parece que no se está escuchando nada.",
+  "Source": "Fuente",
+  "Adding...": "Añadiendo...",
+  "All songs from playlist %s have been added to the queue": "Se han añadido todas las canciones de la playlist %s a la cola",
+  "Uh oh chief! Nothing has been found. Better luck next time!": "No se ha encontrado nada. ¡Igual tienes más suerte la próxima vez!",
+  "Uh oh chief! The queue is empty.": "¡Vaya! No hay nada en la cola.",
+  "Current queue": "Current queue",
+  "videos": "vídeos",
+  "Searching...": "Buscando...",
+  "...Next time do something that makes sense, aight?": "La próxima vez pon algo coherente :(",
+  "Well... It seems like you aren't connected to a voice channel. Try again": "Hmm... Parece que no estás en un canal de voz. Revisa que estés en uno.",
+  "Uh oh chief! Couldn't connect to your channel because I don't have permissions to do so.": "¡Vaya! Parece que no tengo permisos para entrar en tu canal.",
+  "Well... It seems like I can't speak here! I don't have permissions to do so.": "¡Vaya! Parece que no tengo permisos para hablar.",
+  "Couldn't join channel": "No he podido entrar a tu canal:",
+  "**{{title}}** `[{{duration}}]` has been added to the queue": "Se ha añadido **{{title}}** `[{{duration}}]` a la cola",
+  "Playing...": "Reproduciendo..."
+}
