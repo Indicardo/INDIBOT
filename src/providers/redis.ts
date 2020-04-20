@@ -2,6 +2,7 @@ import * as initializer from "redis";
 import { promisify } from "util";
 
 const redis = initializer.createClient({
+  url: process.env.REDIS_URL,
   port: Number(process.env.REDIS_PORT),
   host: process.env.REDIS_HOST,
   password: process.env.REDIS_PASSWORD,
