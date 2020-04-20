@@ -1,4 +1,9 @@
-import { AkairoClient, CommandHandler, InhibitorHandler } from "discord-akairo";
+import {
+  AkairoClient,
+  CommandHandler,
+  InhibitorHandler,
+  ListenerHandler,
+} from "discord-akairo";
 import { join } from "path";
 
 import { VideoHandler } from "../handlers/video";
@@ -17,6 +22,7 @@ declare module "discord-akairo" {
   interface AkairoClient {
     commandHandler: CommandHandler;
     inhibitorHandler: InhibitorHandler;
+    listenerHandler: ListenerHandler;
     videoHandler: VideoHandler;
     config: botOptions;
     settings: SettingsService;
@@ -60,6 +66,10 @@ export default class INDIBOT extends AkairoClient {
       directory: join(__dirname, "..", "inhibitors"),
     });
 
+    this.listenerHandler = new ListenerHandler(this, {
+      directory: join(__dirname, "..", "listeners"),
+    });
+
     this.videoHandler = new VideoHandler(this);
   }
 
@@ -76,6 +86,9 @@ export default class INDIBOT extends AkairoClient {
     this.logger.info(
       `Inhibitors loaded: ${this.inhibitorHandler.modules.size}`
     );
+
+    this.listenerHandler.loadAll();
+    this.logger.info(`Listeners loaded: ${this.listenerHandler.modules.size}`);
 
     this.on("shardReady", (id: number) =>
       this.logger.info(`Shard ${id} ready`)
