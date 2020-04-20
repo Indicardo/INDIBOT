@@ -50,7 +50,7 @@ export class VideoHandler {
     if (!permissions.has("CONNECT")) {
       return message.channel.send(
         this.client.i18n.translate(
-          "Uh oh chief! Couldn't connect to your channel because I don't have permissions to do so.Well... It seems like you aren't connected to a voice channel. Try again",
+          "Uh oh chief! Couldn't connect to your channel because I don't have permissions to do so.",
           message.settings.locale,
           "music"
         )
